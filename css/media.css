@@ -1,0 +1,143 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.form_futer{
+	float:none;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.logo img{
+	margin: 0 auto;
+	display: block;
+}
+.kach_futer img{
+	margin: 0 auto;
+	display: block;
+}
+.txt_futer p{
+    font-size: 20px;
+	line-height: 0.9;
+}
+.txt_futer h1{
+	font-size: 23px;
+}
+.clocktext{
+	float:none;
+	margin:0 auto;
+	padding-top: 10px;
+}
+.har_text{
+     margin-top: 20px;
+     margin: 20px auto;
+     float: none;
+}
+.har_img{
+	float: none;
+	margin: 0 auto;
+	width: 100%;
+}
+.form_bottom{
+	height: 100%;
+}
+.form_bottom input{
+	width: 250px;
+	margin: 20px auto;
+	display: block;
+}
+.button_2{
+	width: 250px;
+	margin: 20px auto;
+}
+button{
+	width: 250px;
+}
+.biceps_2{
+	float: none;
+}
+.press_2{
+	float: none;
+}
+.rezults img {
+    margin: 15px auto;
+    display: block;
+}
+.txt_futer{
+	height: 100%;
+	max-width: 100%;
+	text-align: center;	
+}
+.phone_futer{
+	float: none;
+	margin: 0 auto;
+}
+.sale{
+	padding: 16px;
+	margin: 42px 10px 10px -16%;
+}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.otzuv2 img{
+	float: ;
+}
+.video1{
+    width: 320px;
+}
+.sale {
+    width: 80px;
+    padding: 3px;
+    margin: 57px 10px 10px -8%;
+}
+.clock_wrapper {
+    margin-left: 11%;
+}
+.har_img{
+	width:300px;
+}
+.rezults img {
+   width: 330px;
+}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
